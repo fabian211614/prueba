@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+body {
+    background-color: black;
+    color: white;
+    background-color: #453a54;
+    background-color: #0a080d;
+    background-color: #313030;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230eb8e8' fill-opacity='0.1'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-size: 16px ;
+    font-family: 'Oswald', sans-serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container2 {
+    width: 90%;
+    margin: auto;
+}
+/* Navigation */
+.nav-main2 {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.practica2 {
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-brand2 {
+    width: 45px;
+}
+/*Nav Left*/
+.nav-main2 ul {
+    display: flex;
+}
+.nav-main2 ul li {
+    padding: 10px;
+}
+.nav-main2 ul li a {
+    padding: 1px;
+    font-size: 20px;
+}
+.nav-main2 ul li a:hover{
+    border-bottom: 2px solid white;
+}
+.nav-main2 ul.nav-menu2 {
+    flex: 1;
+    margin-left: 20px;
+}
+hr{
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+/*SHOWCASE*/
+.columnas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    gap: 25px ;
+    margin: 10px 0; 
+    margin-bottom: 10px;
+}
+
+
+.showcase2 img {
+    width: 60%;
+    height: 240px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+.showcase2 h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 11px;
+    color: red;
+    font-size: 40px;
+}
+.showcase2 h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.showcase2 p {
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+.columna2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;   
+    gap: 25px ;
+    margin: 10px 0; 
+}
+.columna2 h2 {
+    color: white;
+    font-size: 25px;
+    text-align: start;
+}
+.columna2 p {
+    text-align: start;
+}
+.q {
+    text-align: start;
+    font-size: 55px;
+}
+.showcase2 hr {
+    margin: 10px 0;
+    margin-bottom: 100px;
+}
+
+/*mas tips*/
+.tips h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.tips img {
+    width: 45%;
+    height: 300px;
+    margin-left: 328px;
+    margin-bottom: 30px;
+}
+.tips p {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.tips h2 {
+    margin-bottom: 40px;
+    margin-left: 35px;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/*tip 2*/
+.tips-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.tips-2 h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.tips-2 p {
+    font-size: 20px;
+}
+.caida2 {
+    margin-top: 100px;
+}
+.caida3 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.tip2-hr {
+    margin-bottom: 70px;
+}
+/*LAST TIP*/
+.last-tip h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.last-tip img {
+    width: 45%;
+    height: 300px;
+    margin-left: 328px;
+    margin-bottom: 30px;
+}
+.last-tip h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.last-tip p {
+    text-align: start;
+    padding: 10px;
+    font-size: 17px;
+}
+.lp {
+    margin-bottom: 50px;
+}
+.last-tip hr {
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+.nav-menu3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+@media(max-width: 700px) {
+    .columna2 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .columnas img {
+        margin-left: 58px;
+        height: 170px;
+    }
+
+    .tips img {
+        height: 200px;
+        margin-left: 175px;
+        
+    }
+    /*TIP 2*/
+    .tips-2 {
+        grid-template-columns: 1fr ;
+    }
+    .caida2 {
+        margin-left: 150px;
+    }
+    .caida3 {
+        margin-top: 100px;
+    }
+    /*LAST TIP*/
+    .last-tip img {
+        height: 250px;
+        margin-left: 175px;
+    }
+    .last-tip img {
+        width: 70%;
+        margin-left: 90px;
+    }
+
+    .nav-main2 ul li a {
+        font-size: 17px;
+        display: inline-block;
+        margin-top: 10px;
+       
+    }
+
+    
+    .practica2 {
+        display: none;
+    }
+}
